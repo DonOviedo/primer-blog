@@ -1,23 +1,27 @@
-    body{
-        background: rgb(70, 38, 187);
+     body{
+        background: #007e80;
         margin: 0;
         padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .contenedor1{
-        background: rgb(17, 51, 204);
+        background: #26979f;
         text-align: center;
         padding: 10px;
     }
     .contenedor2{
-        background-color: rgb(31, 110, 228);
-        display: flex;
-        justify-content: center;
+        background-color: #3b3b3b;
         padding: 15px;
-        margin: 0;
-        list-style-type: none;
-        line-height: 25px;
     }
-   
+    
+    .bar{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     ul{
         list-style: none;
         padding: 0;
@@ -25,69 +29,78 @@
     }
 
     li{
-        color: inherit;
+        color: inhert;
         text-decoration: none;
-        display: inline-block;
+        background-color: #eae2cf;
+        border: 3px solid black;
+        border-radius: 5px;
+        padding: 15px 140px 15px 140px;
     }
 
     a{
+        color: #000;
         text-decoration: none;
     }
-    h2.primero{
-       text-align: left;
-       margin-top: 50px;
-       margin-right: 50%;
-       margin-left: 15%;
-       border: 10px solid black;
-       padding: 40px;
-       background-color: rgb(45, 169, 252);
+    a:hover {
+     color: rgb(255, 0, 140);
+     text-decoration: solid;
     }
-
-    h2.segundo{
-        text-align: left;
-        margin-top: 0;
-        margin-left: 50%;
-        margin-right: 15%;
-        background-color: rgb(45, 169, 252);
+    
+    .intro{
+        font-size: 20px;
+        text-align: center;
+        margin: 20px 50px 20px 50px;
+    }
+  
+  
+    .primero{
+        text-align: justify;
+        background-color: #b4ccb9;
         border: 10px solid black;
-        padding: 40px;
+        padding: 5px 30px;
+        margin-right: 50px;
+        margin-left: 50px;
+        border-radius: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 49%;
+    
     }
 
-    hr {
-       border: 5px solid black; 
+     
+    .segundo{
+        text-align: justify;
+        background-color: #b4ccb9;
+        border: 10px solid black;
+        padding: 5px 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 49%;
+    }
+      
+    .marcas{
+        display: flex;
+        justify-content: space-between;
+
     }
 
-    nav.contenedor2{
-        background-color: rgb(36, 186, 206);
 
-    }
-   
-    .inicio{
-      background-color: rgb(215, 22, 233);
-      padding: 10px 10px;
-      border: 3px solid black;
+    .secc1{
+        text-align: center;
     }
 
-    .tecno{
-      background-color: rgb(215, 22, 233);
-      padding: 10px 10px;
-      border: 3px solid black;
-    }
 
-    .food{
-      background-color: rgb(215, 22, 233);
-      padding: 10px 10px;
-      border: 3px solid black;
-    }
-
-    .cars{
-      background-color: rgb(215, 22, 233);
-      padding: 10px 10px;
-      border: 3px solid black;
-    }
-
-    .money{
-      background-color: rgb(215, 22, 233);
-      padding: 10px 10px;
-      border: 3px solid black;
+    .versus img{
+        padding: 0px;
+        margin: 120px 0px 0px 0px;
+        border: 0px;
+        display: flex;
+        justify-content: center;
+        width: 290px;
+        border-radius: 40px;
     }

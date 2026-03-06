@@ -1,4 +1,5 @@
-     body{
+
+    body{
         background: #007e80;
         margin: 0;
         padding: 0;
@@ -105,11 +106,60 @@
         border-radius: 40px;
         
     }
-
-
-     
     .pie{
         display: flex;
         justify-content: center;
     }
-  
+    
+    @media screen and (max-width: 600px) {
+     body {
+        font-size:10px; 
+        background-color: #b4ccb9;
+     }
+       .bar{
+        display: flex;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .primero{
+        text-align: justify;
+        background-color: #b4ccb9;
+        border: 10px solid black;
+        padding: 5px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+
+        .segundo{
+        text-align: justify;
+        background-color: #b4ccb9;
+        border: 10px solid black;
+        padding: 5px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+      .versus img{
+        padding: 1px;
+        margin: 100 px 15px 15px 15px;
+        border: 0px;
+        display: flex;
+        justify-content: center;
+        border-radius: 40px;
+        width: 50px;
+        
+    }
+    img{
+         margin: 100 px 15px 15px 15px;
+    }
+
+    }
